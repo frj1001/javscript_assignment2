@@ -49,7 +49,11 @@
 
 // 5)Write a program to store phone manufacturers in an array.
 
-    let phoneManufacturers = ["Nokia", "Samsung", "Apple", "Huawei"];
+    let phoneManufacturers = [];
+    phoneManufacturers.push("Nokia");
+    phoneManufacturers.push("Samsung");
+    phoneManufacturers.push("Apple");
+    console.log(phoneManufacturers)
 
 // 6)Write a program to store student scores in an array and sort the array in ascending order using Array's sort method.
 
