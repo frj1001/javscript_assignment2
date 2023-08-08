@@ -57,7 +57,11 @@
 
 // 6)Write a program to store student scores in an array and sort the array in ascending order using Array's sort method.
 
-    let studentScores = [40, 30, 60, 50, 70];
+    let studentScores = [];
+    studentScores.push("40");
+    studentScores.push("30");
+    studentScores.push("50");
+    studentScores.push("20");
     studentScores.sort();
     console.log(studentScores);
 
